@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.font-gloock {
+  font-family: 'Gloock', serif;
+}
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.font-tangerine {
+  font-family: 'Tangerine', cursive;
+}
+.font-marcellus {
+  font-family: 'Marcellus', serif;
+}
