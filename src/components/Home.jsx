@@ -40,7 +40,7 @@ const Home = ({ onSubmit }) => {
   };
 
   return (
-    <div className='h-screen w-full bg-[#e3e0d6] font-marcellus sm:flex ' >
+    <div className='min-h-screen w-full bg-[#e3e0d6] font-marcellus sm:flex ' >
       <div className='sm:w-1/2 sm:h-full flex items-center flex-col'>
         <h1 className='text-center pt-30 text-5xl font-extrabold bg-gradient-to-b from-gray-700 to-black bg-clip-text text-transparent font-marcellus'>Chant. Count. Connect.</h1>
         <h3 className='text-center font-bold pt-8 text-lg'>"Wear headphones for a better experience."</h3>
