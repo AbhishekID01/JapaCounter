@@ -19,7 +19,7 @@ const socialLinks = [
 
   
   return (
-    <div className='h-[60vh] w-full bg-[#ed6842] flex flex-col sm:flex-row p-2 font-marcellus'>
+    <div className='h-fit w-full bg-[#ed6842] flex flex-col sm:flex-row p-2 font-marcellus'>
       <div className="img h-full w-full sm:w-1/2">
         <img
           src={BlackLogo}

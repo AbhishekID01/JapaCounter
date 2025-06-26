@@ -59,7 +59,7 @@ const Home = ({ onSubmit }) => {
         />
         {error && <p className="text-red-500 mb-2">{error}</p>}
 
-        <label className="block mb-2 mt-4 text-gray-700">Select Ball Style</label>
+        <label className="block mb-2 mt-4 text-gray-700">Select beads Type</label>
         <div className="border rounded-2xl overflow-hidden">
           {options.map((opt) => (
             <div

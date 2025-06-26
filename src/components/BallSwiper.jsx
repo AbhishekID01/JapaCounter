@@ -124,7 +124,7 @@ const BallSwiper = ({ Mala, ballType }) => {
 
             <button
                 type="button"
-                className="mt-4 px-10 py-3 bg-[#2d2d2d] text-white rounded hover:bg-black  transition"
+                className="mt-4 mb-3 px-10 py-3 bg-[#2d2d2d] text-white rounded hover:bg-black  transition"
                 onClick={handleReset}
             >
                 Reset
