@@ -1,7 +1,7 @@
 import React from 'react'
 import WhiteLogo from '../assets/WhiteLogo.png'
 import BlackLogo from '../assets/BlackLogo.png'
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin  } from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -11,9 +11,9 @@ const Footer = () => {
   { name: "About", href: "/About" },
 ];
 const socialLinks = [
-    { icon: <FaFacebook />, href: "https://facebook.com" },
-    { icon: <FaInstagram />, href: "https://instagram.com" },
-    { icon: <FaTwitter />, href: "https://twitter.com" },
+    { icon: <FaFacebook />, href: "https://m.facebook.com/abhishek.deshbandari/" },
+    { icon: <FaInstagram />, href: "https://www.instagram.com/abhishek_deshbhandari_/" },
+    { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/abhishekid/" },
   ];
 
 
@@ -39,7 +39,7 @@ const socialLinks = [
           </a>
         ))}
         </div>
-        <div className="Social flex gap-7 py-5 ">
+        <div className="Social flex gap-7 py-5 sm:px-5">
           {socialLinks.map((social, index) => (
             <a 
             key={index}

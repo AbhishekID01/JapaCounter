@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='min-h-screen  bg-[#e3e0d6] flex flex-col text-center items-center justify-center font-marcellus'>
+    <div className='h-fit  bg-[#e3e0d6] flex flex-col text-center items-center justify-center font-marcellus'>
       <h2 className="text-3xl font-marcellus font-bold mb-4">About MantraPath</h2>
       <p className="text-lg leading-relaxed max-w-3xl">
         <span className="font-semibold">MantraPath</span> is your spiritual companion on the path of devotion and inner peace.
